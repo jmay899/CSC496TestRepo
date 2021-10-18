@@ -3,7 +3,7 @@ import { graphql } from "gatsby"
 import PropTypes from "prop-types"
 class Post extends Component {
   render() {
-    const post = this.props.data.wordpressPost
+    const post = this.props.data.wpPost
     return (
       <>
         <h1>{post.title}</h1>
@@ -14,11 +14,11 @@ class Post extends Component {
 }
 const data = JSON.stringify({
     query: `query($id: String!) {
-    wpPost(id: { eq: $id }) {
-		title
-		content
-	}
-}`,
+		allWpPost {
+			title
+			content
+		}
+	}`,
     variables: `{
         "id": "${id}"
       }`,
