@@ -12,16 +12,14 @@ class Post extends Component {
     )
   }
 }
-Post.propTypes = {
-  data: PropTypes.object.isRequired,
-  edges: PropTypes.array,
-}
-export default Post
-export const pageQuery = graphql`
-  query($id: String!) {
-    wordpressPost(id: { eq: $id }) {
-      title
-      content
-    }
-  }
-`
+const data = JSON.stringify({
+    query: `query($id: String!) {
+    wpPost(id: { eq: $id }) {
+		title
+		content
+	}
+}`,
+    variables: `{
+        "id": "${id}"
+      }`,
+  });
