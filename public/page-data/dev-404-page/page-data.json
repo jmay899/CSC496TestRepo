@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---cache-dev-404-page-js",
     "path": "/dev-404-page/",
-    "result": {"data":{"allSiteFunction":{"nodes":[]},"allSitePage":{"nodes":[{"path":"/pokemon"},{"path":"/404.html"},{"path":"/404/"},{"path":"/about/"},{"path":"/blog/"},{"path":"/"}]}},"pageContext":{}},
+    "result": {"data":{"allSiteFunction":{"nodes":[]},"allSitePage":{"nodes":[{"path":"/pokemon"},{"path":"/pokemonindex/page1"},{"path":"/pokemonindex/page2"},{"path":"/pokemonindex/page3"},{"path":"/pokemonindex/page4"},{"path":"/pokemonindex/page5"},{"path":"/pokemonindex/page6"},{"path":"/pokemonindex/page7"},{"path":"/pokemonindex/page8"},{"path":"/pokemonindex/page9"},{"path":"/pokemonindex/page10"},{"path":"/404.html"},{"path":"/404/"},{"path":"/about/"},{"path":"/blog/"},{"path":"/"}]}},"pageContext":{}},
     "staticQueryHashes": []}

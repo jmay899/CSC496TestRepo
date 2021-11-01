@@ -1,3 +1,8 @@
+/** {
+  background: #333;
+  color: #fff;
+}*/
+
 .container {
   margin: auto;
   max-width: 500px;
@@ -14,9 +19,6 @@
 }
 .nav-link-item {
   padding-right: 2rem;
-}
-.nav-link-text {
-  color: black;
 }
 
 .site-title {
