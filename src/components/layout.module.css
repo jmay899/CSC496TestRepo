@@ -1,7 +1,5 @@
-/** {
-  background: #333;
-  color: #fff;
-}*/
+* {
+}
 
 .container {
   margin: auto;
@@ -9,9 +7,20 @@
   font-family: sans-serif;
 }
 
+container.lightmode {
+	background-color: #fff;
+	color: #333;
+}
+
+container.darkmode {
+	background-color: #333;
+	color: #fff;
+}	
+
 .heading {
   color: rebeccapurple;
 }
+
 .nav-links {
   display: flex;
   list-style: none;
