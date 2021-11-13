@@ -8,6 +8,7 @@ import {
   navLinkText,
   siteTitle,
 } from './layout.module.css'
+import Lightswitch from '../components/lightswitch'
 
 const Layout = ({ pageTitle, children }) => {
 	const data = useStaticQuery(graphql`
@@ -49,6 +50,11 @@ const Layout = ({ pageTitle, children }) => {
 		  <li className={navLinkItem}>
             <Link to="/pokemonindex/page1" className={navLinkText}>
               Pokemon Index
+            </Link>
+          </li>
+		  <li className={navLinkItem}>
+            <Link to="/chart" className={navLinkText}>
+              Chart
             </Link>
           </li>
         </ul>
