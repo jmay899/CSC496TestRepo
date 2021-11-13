@@ -4,16 +4,6 @@
   font-family: sans-serif;
 }
 
-container.lightmode {
-	background-color: #fff;
-	color: #333;
-}
-
-container.darkmode {
-	background-color: #333;
-	color: #fff;
-}	
-
 .heading {
   color: rebeccapurple;
 }
@@ -25,6 +15,10 @@ container.darkmode {
 }
 .nav-link-item {
   padding-right: 2rem;
+}
+
+.nav-link-text {
+	
 }
 
 .site-title {

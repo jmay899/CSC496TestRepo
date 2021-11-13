@@ -8,7 +8,6 @@ import {
   navLinkText,
   siteTitle,
 } from './layout.module.css'
-import Lightswitch from '../components/lightswitch'
 
 const Layout = ({ pageTitle, children }) => {
 	const data = useStaticQuery(graphql`

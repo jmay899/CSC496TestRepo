@@ -13,7 +13,7 @@ const series = [
 
 const ChartPage = () => {
   return (
-    <Layout pageTitle="Rent For U.S. Cities: ">
+    <Layout pageTitle="City Rent">
       <Chart width={1000} height={500} viewBox="80 40 1000 500" series={series} minY={0} maxY={2000}>
       <Layer width="70%" height="70%" position="middle center">
         <Transform method="transpose">
